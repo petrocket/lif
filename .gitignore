@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
+# Ignore compiled assets
+*.dds
+*.caf
+*.$animsettings
+*.mayaSwatches
+*.ma.swatches
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore Editor's backup files
+*.bak*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Pak files are exported from level files in the editor.
+# These should eventually be served from a build machine,
+# for now we should avoid checking them in because it is
+# really easy for them to get out of sync with changes to the level.
+*.pak
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# ignore level save backups
+**/_savebackup
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
