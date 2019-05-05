@@ -1,0 +1,12 @@
+{
+    "auto": {
+        "Include": [
+            "Include/LD44Playground/LD44PlaygroundBus.h"
+        ],
+        "Source": [
+            "Source/LD44PlaygroundModule.cpp",
+            "Source/LD44PlaygroundSystemComponent.cpp",
+            "Source/LD44PlaygroundSystemComponent.h"
+        ]
+    }
+}

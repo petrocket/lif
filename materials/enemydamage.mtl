@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" DccMaterialHash="0" Shader="Illum" GenMask="800000000023" StringGenMask="%ALLOW_SILHOUETTE_POM%ALLOW_SPECULAR_ANTIALIASING%BLENDLAYER%SUBSURFACE_SCATTERING" SurfaceType="mat_default" Diffuse="1,0,0,1" Specular="0.045000002,0.045000002,0.045000002,0.039215688" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="engineassets/textures/grey.dds"/>
+  <Texture Map="Opacity" File="engineassets/textures/grey.dds"/>
+ </Textures>
+ <PublicParams BlendFalloff="22.209999" EmittanceMapGamma="1" BlendLayer2Tiling="1" BlendLayer2Smoothness="10" BlendLayer2Diffuse="1,1,1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0" BlendLayer2Specular="0.2314,0.2314,0.2314" IndirectColor="0.25,0.25,0.25"/>
+</Material>

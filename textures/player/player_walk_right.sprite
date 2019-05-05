@@ -1,0 +1,10 @@
+<Sprite versionNumber="2">
+ <SpriteSheet>
+  <Cell topRight="0.5,0" bottomRight="0.5,1" bottomLeft="0,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+  <Cell topLeft="0.5,0" topRight="1,0" bottomRight="1,1" bottomLeft="0.5,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+ </SpriteSheet>
+</Sprite>

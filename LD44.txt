@@ -1,0 +1,82 @@
+THEME: Your life is currency
+
+Ideas
+Aliens give you a scanner to scan interesting humans and you have to scan them to get rewarded.
+
+
+
+You're a treasure hunter/wizard? and before you go into each level you can buy stuff from the store with life elixer.
+You can find treasure in each level and forge it into heart containers and in the final room there is a fountain where you can fill up the containers and an exit.
+
+At the end there is a boss that takes a lot of hearts to beat?
+
+The best weapons in the shop cost a lot of hearts.
+
+
+Player has
+- basic sword
+- portable forge
+- 1 heart container
+
+Store
+- Improved sword, fireball spell, lightning spell, shield, revive potion
+
+Intro level
+- 3 rooms, first room has treasure, second has a trap (spikes), third has elixer fountain and exit
+
+Level 1
+- show store first
+- level has spike traps and giant dumb insects, treasure and elixer fountain
+
+...
+
+
+Tasks
+- Game State (STARTED)
+- Moveable player (WORKING)
+- Camera follows player (WORKING)
+- Player has sword attack action (WORKING)
+- Enemy dies from player attack (WORKING)
+- Enemy damages player on touch (WORKING)
+- Player dies when out of life elixer (WORKING)
+- Player starts with 1 heart container (WORKING)
+- Player increases heart containers for 10 treasure (WORKING)
+- Trap damages player (WORKING)
+- Player enters and exits a level (WORKING)
+- Player collects treasure (WORKING)
+- HUD displays new heart container building from treasure (WORKING)
+- Treasure turns into another heart container automatically (10 treasure = 1 heart container?) (WORKING)
+- Elixer fountain refills all heart containers on player touch (WORKING)
+- simple hud (WORKING)
+
+Next:
+- Shop appears before level, can exit shop screen and start level (WORKING)
+- can buy fireball spell (WORKING)
+- can switch between sword and fireball (WORKING)
+- enemies swarm you (WORKING)
+
+- create level 1 ... mesh collider not working??  Had to add materialfx libs (surface types)
+When trying to add physics proxy mesh in FBX settings have to check "update material" or will fail with
+error about index 255 being out of the valid range 0-127 (probably related to surface type in material)
+
+- create tutorial level 
+
+- magic sword does extra damage (Kinda)
+
+- fireball throws fireballs (Kinda)
+
+- breaking treasure box spawns treasure
+
+- (OPTIONAL) breaking some boxes spawns enemies
+
+- player idle, move and attack frames
+- enemy idle, move
+- level textures and lighting
+- hud and menu art
+- font
+- audio sfx (attack, damage, dripping, flames)
+- audio sfx music
+
+
+
+

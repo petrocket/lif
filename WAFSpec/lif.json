@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for LIF",
+    "visual_studio_name": "lif",
+    "comment" : "",
+    "game_projects" : "lif",
+
+    "modules" : [
+    ]
+}

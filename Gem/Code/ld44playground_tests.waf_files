@@ -1,0 +1,7 @@
+{
+    "auto": {
+        "Tests": [
+            "Tests/LD44PlaygroundTest.cpp"
+        ]
+    }
+}
